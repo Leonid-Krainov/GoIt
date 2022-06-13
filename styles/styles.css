@@ -80,3 +80,7 @@ body {
     font-size: 14px;
     line-height: 24px;
 }
+
+.main-content {
+    padding: 10px;
+}
