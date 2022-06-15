@@ -1,10 +1,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
 }
 
 .main {
     width: 1280px;
-    background-color: #E5E5E5;
     padding: 40px;
     margin: 0 auto;
     display: flex;
@@ -13,6 +13,155 @@ body {
 
 .main-content {
     background-color: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
+
+}
+
+.about-user {
+    margin-bottom: 40px;
+}
+
+.about-position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+.about-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.about-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+}
+
+.projects {
+    margin-bottom: 50px;
+}
+
+.work {
+    margin-bottom: 45px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.project-list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.project-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.project,
+.project-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.project-link {
+    margin-left: 10px;
+}
+
+.project-bracket {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.work-position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.organization,
+.educational-institution {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+
+.period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+
+.line {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.work-list {
+    padding: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.work-list li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.educational-institution {
+    margin-bottom: 10px;
+}
+
+.faculty {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .sidebar {
@@ -34,7 +183,9 @@ body {
     margin-bottom: 10px;
 }
 
-.contacts, .tech-skills, .soft-skills {
+.contacts,
+.tech-skills,
+.soft-skills {
     margin-left: 40px;
 }
 
@@ -44,7 +195,7 @@ body {
 
 .tech-skills {
     margin-bottom: 45px;
-} 
+}
 
 .contact-type {
     color: #FFFFFF;
@@ -69,7 +220,7 @@ body {
     margin-left: 17px;
 }
 
-.skills-item{
+.skills-item {
     color: #FB6D3A;
 }
 
@@ -79,8 +230,4 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-}
-
-.main-content {
-    padding: 10px;
 }

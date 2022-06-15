@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <title>My resume</title>
 </head>
+
 <body>
     <!-- Main -->
     <div class="main">
@@ -17,41 +19,54 @@
         <div class="main-content">
             <!-- About user -->
             <div class="about-user">
-                <h2>Front-End Developer</h2>
-                <h1>Leonid Krainov</h1>
-                <p>
-                    Office specialist with over 8 years of experience working in one of the biggest IT-company in Lviv as a fire safety and protection of labour engineer, as well as storehouse manager.  I would like to be a part of an organization where I could use and enhance my knowledge and talent for the development of both the organization and myself.
+                <h2 class="about-position">Front-End Developer</h2>
+                <h1 class="about-name">Leonid Krainov</h1>
+                <p class="about-description">
+                    Office specialist with over 8 years of experience working in one of the biggest IT-company in Lviv
+                    as a fire safety and protection of labour engineer, as well as storehouse manager. I would like to
+                    be a part of an organization where I could use and enhance my knowledge and talent for the
+                    development of both the organization and myself.
                 </p>
             </div>
             <!-- Projects -->
             <div class="projects">
-                <h3>Projects</h3>
-                <ol>
-                    <li>
-                        <a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
-                        .........
-                        [ HTML5, CSS3 ]
+                <h3 class="title">Projects</h3>
+                <ol class="project-list">
+                    <li class="project-item">
+                        <span class="project">
+                            <a href="https://hellenglish.goit.global/"
+                                class="project-link">https://hellenglish.goit.global/</a>
+                            .........
+                            <span class="project-bracket">[</span> HTML5, CSS3 <span class="project-bracket">]</span>
+                        </span>
                     </li>
-                    <li>
-                        <a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
-                        ..........
-                        [ JavaScript ]
+                    <li class="project-item">
+                        <span class="project">
+                            <a href="https://cryptohub.goit.global/"
+                                class="project-link">https://cryptohub.goit.global/</a>
+                            ..........
+                            <span class="project-bracket">[</span> JavaScript <span class="project-bracket">]</span>
+                        </span>
                     </li>
-                    <li>
-                        <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
-                        .............
-                        [ React.js, Node.js ]
+                    <li class="project-item">
+                        <span class="project">
+                            <a href="https://kidslike.goit.global/"
+                                class="project-link">https://kidslike.goit.global/</a>
+                            .................
+                            <span class="project-bracket">[</span> React.js, Node.js <span
+                                class="project-bracket">]</span>
+                        </span>
                     </li>
                 </ol>
             </div>
             <!-- Work -->
             <div class="work">
-                <h3>Work Experience</h3>
+                <h3 class="title">Work Experience</h3>
                 <!-- Company 1 -->
                 <div class="company-1">
-                    <h4>Office Specialist EPAM SYSTEMS</h4>
-                    <p>2013 - now</p>
-                    <ul>
+                    <h4 class="work-position">Office Specialist <span class="organization">EPAM SYSTEMS</span></h4>
+                    <p class="period">2013 - now <span class="line">|</span> Ukraine</p>
+                    <ul class="work-list">
                         <li>Providing fire safety and protection of labour</li>
                         <li>Storehouse management (receiving and giving out goods)</li>
                         <li>Preparing and placing orders</li>
@@ -63,17 +78,17 @@
                 </div>
                 <!-- Company 2 -->
                 <div class="company-2">
-                    <h4>Service engineer Oldonion</h4>
-                    <p>2013 - 2013</p>
-                    <ul>
+                    <h4 class="work-position">Service engineer <span class="organization">Oldonion</span></h4>
+                    <p class="period">2013 - 2013 <span class="line">|</span> Ukraine</p>
+                    <ul class="work-list">
                         <li>Maintenance air conditioning and ventilation systems</li>
                     </ul>
                 </div>
                 <!-- Company 3 -->
                 <div class="company-3">
-                    <h4>Head of technical department Allians market LLC</h4>
-                    <p>2011 - 2013</p>
-                    <ul>
+                    <h4 class="work-position">Head of technical department <span class="organization">Allians market LLC</span></h4>
+                    <p class="period">2011 - 2013 <span class="line">|</span> Ukraine</p>
+                    <ul class="work-list">
                         <li>Storehouse management (receiving and giving out goods)</li>
                         <li>Preparing and placing orders</li>
                         <li>Communication with service organizations</li>
@@ -84,18 +99,18 @@
             </div>
             <!-- Education -->
             <div class="education">
-                <h3>Education</h3>
+                <h3 class="title">Education</h3>
                 <!-- Technical School -->
                 <div class="technical-school">
-                    <h4>Technical School of Electromechanics in Novovolynsk</h4>
-                    <h5>Electro mechanics</h5>
-                    <p>2000 - 2004</p>
+                    <h4 class="educational-institution">Technical School of Electromechanics in Novovolynsk</h4>
+                    <h5 class="faculty">Electro mechanics</h5>
+                    <p class="period">2000 - 2004 <span class="line">|</span> Ukraine</p>
                 </div>
                 <!-- University -->
                 <div class="university">
-                    <h4>Lviv Polytechnic National University</h4>
-                    <h5>Institute of Computer Science and Information Technologies</h5>
-                    <p>2004 - 2007</p>
+                    <h4 class="educational-institution">Lviv Polytechnic National University</h4>
+                    <h5 class="faculty">Institute of Computer Science and Information Technologies</h5>
+                    <p class="period">2004 - 2007 <span class="line">|</span> Ukraine</p>
                 </div>
             </div>
         </div>
@@ -108,10 +123,12 @@
                 <div>
                     <p>
                         <span class="contact-type">C:</span>
-                        <a href="tel:+380954060662" class="contact-link">+380954060662</a></p>
-                    <p> 
+                        <a href="tel:+380954060662" class="contact-link">+380954060662</a>
+                    </p>
+                    <p>
                         <span class="contact-type">E:</span>
-                        <a href="mailto:krajnovleonid@gmail.com" class="contact-link">krajnovleonid@gmail.com</a></p>
+                        <a href="mailto:krajnovleonid@gmail.com" class="contact-link">krajnovleonid@gmail.com</a>
+                    </p>
                 </div>
             </div>
             <!-- Tech skills -->
@@ -140,4 +157,5 @@
         </aside>
     </div>
 </body>
+
 </html>
